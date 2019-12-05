@@ -8,8 +8,8 @@
       </div>
     </div>
     <div class="timeline">
-      <div class="items" v-for="(item,index) in dataList" :key="index">
-        <div class="item">
+      <div class="items" v-for="(item, index) in dataList" :key="index">
+        <div class="item dimg">
           {{item}}
         </div>
       </div>
@@ -36,9 +36,9 @@ export default {
     align-items: center;
     justify-content: center;
     width:100vw;
-    height: 100vh;
+    height: 90vh;
     .items {
-      line-height: 100vh;
+      line-height: 50vh;
       .triangle-up {
         width: 0;
         height: 0;
@@ -62,12 +62,32 @@ export default {
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: first baseline;
     width:100vw;
-    height: 100vh;
+    height: 90vh;
     .items {
-      line-height: 100vh;
+      line-height: 60vh;
+      .item {
+        width: 500px;
+      }
     }
   }
+}
+.dimg{
+position:relative;
+animation:mymove 5s infinite;
+-webkit-animation:mymove 5s infinite; /*Safari and Chrome*/
+}
+
+@keyframes mymove
+{
+from {left:0px;}
+to {left:200px;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+from {left:0px;}
+to {left:200px;}
 }
 </style>
