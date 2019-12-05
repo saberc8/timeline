@@ -10,7 +10,6 @@
 // @ is an alias to /src
 import TimeLine from '@/components/TimeLine.vue'
 import Live2d from '@/components/Live2d'
-import config from '@/utils/config'
 
 export default {
   name: 'home',
@@ -19,7 +18,6 @@ export default {
     Live2d
   },
   mounted () {
-    console.log(config)
   },
   methods: {
 
