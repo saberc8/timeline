@@ -1,29 +1,16 @@
-# timeline-video
+<h1 align="center">
+滚动时间轴
+</h1>
 
-## Project setup
-```
-npm install
-```
+<h3 align="center">因为不想做视频而开发的一个自动时间轴大事记，配置好数据项目自动跑起来，直接录制完事。灵感来源于B站视频 <a href='https://www.bilibili.com/video/av41230943'>9分钟回顾人类科技史</a></h3>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+----
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 两句话用法
 
-### Run your tests
-```
-npm run test
-```
+- npm install
+- npm run serve
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 2019.12.4
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- start
