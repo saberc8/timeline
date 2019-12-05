@@ -19,7 +19,7 @@
 
 <script>
 // 路径以.vue文件为起点
-// import '../static/js/message'
+import '../static/js/message'
 import '../static/js/live2d'
 import * as animate from '../static/js/animate'
 

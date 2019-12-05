@@ -76,13 +76,13 @@ setTimeout(function () {
   showDateTip();
 }, 4000);
 
-window.setInterval(showHitokoto, 25000);
+// window.setInterval(showHitokoto, 25000);
 
-function showHitokoto() {
-  $.getJSON('https://v1.hitokoto.cn/', function (result) {
-    showMessage(result.hitokoto, 5000);
-  });
-}
+// function showHitokoto() {
+//   $.getJSON('https://v1.hitokoto.cn/', function (result) {
+//     showMessage(result.hitokoto, 5000);
+//   });
+// }
 
 function showMessage(text, timeout) {
   if (Array.isArray(text)) {
