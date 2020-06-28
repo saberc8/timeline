@@ -84,7 +84,7 @@ export default {
   display: block;
   line-height: 20px;
   padding: 0 20px;
-  color: #000;
+  color: #fff;
   font-size: 13px;
   word-wrap: break-spaces;
   font-weight: 400;

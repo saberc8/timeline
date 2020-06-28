@@ -100,7 +100,7 @@ function showMessage(text, timeout) {
 
 function hideMessage(timeout) {
   var messageBox = $('.messageBox');
-  messageBox.stop().css('opacity', 0.5);
+  messageBox.stop().css('opacity', 0.9);
   if (timeout === null) timeout = 5000;
   messageBox.delay(timeout).fadeTo(200, 0);
 }
