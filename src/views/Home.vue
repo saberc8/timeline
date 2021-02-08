@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    222
     <time-line/>
     <Live2d/>
   </div>
